@@ -127,7 +127,8 @@ export const themeSettings = (mode) => {
   return {
     palette: {
       mode: mode,
-      ...colors(
+      // ...colors(
+      ...(
         mode === "dark"
           ? {
               primary: {
@@ -160,7 +161,7 @@ export const themeSettings = (mode) => {
               background: {
                 default: "#fcfcfc",
               },
-            },
+            }
       ),
     },
     typography:{
