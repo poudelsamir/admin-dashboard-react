@@ -62,7 +62,7 @@ const AppSidebar = () => {
 
         "& .ps-sidebar-container": {
           background: `${colors.primary[400]} !important`,
-          height: "100vh",
+          height:"100%"
         },
         "& .ps-menu-button": {
           padding: "5px 35px 5px 20px !important",
@@ -136,7 +136,7 @@ const AppSidebar = () => {
                     color: colors.grey[100],
                   }}
                 >
-                  Ed Roh
+                  Shekhar
                 </Typography>
                 <Typography
                   variant="h5"
